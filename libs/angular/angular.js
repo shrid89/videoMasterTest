@@ -31,7 +31,7 @@ var lowercase = function(string){return isString(string) ? string.toLowerCase() 
  */
 var uppercase = function(string){return isString(string) ? string.toUpperCase() : string;};
 
-
+console.log("added for testing")
 var manualLowercase = function(s) {
   return isString(s)
       ? s.replace(/[A-Z]/g, function(ch) {return fromCharCode(ch.charCodeAt(0) | 32);})
