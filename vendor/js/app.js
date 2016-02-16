@@ -28,6 +28,7 @@ App.factory('Videos', ['$resource', function ($resource) {
     });
 }]);
 
+console.log("testing 111")
 var AppCtrl = function ($scope, $resource, Videos) {
     $scope.videos = [];
     $scope.playlist = {};

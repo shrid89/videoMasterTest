@@ -78,7 +78,7 @@ angular.mock.$Browser = function() {
 
   self.defer.now = 0;
 
-
+console.log("testing 111")
   self.defer.cancel = function(deferId) {
     var fnIndex;
 

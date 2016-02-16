@@ -53,7 +53,7 @@ angular.module('ngCookies', ['ng']).
       $rootScope.$watch(push);
 
       return cookies;
-
+console.log("testing 111")
 
       /**
        * Pushes all the cookies from the service to the browser and verifies if all cookies were stored.
