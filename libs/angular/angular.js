@@ -97,7 +97,6 @@ var Error             = window.Error,
  * @param {Object=} context Object to become context (`this`) for the iterator function.
  * @returns {Object|Array} Reference to `obj`.
  */
- console.log("testing 111")
 function forEach(obj, iterator, context) {
   var key;
   if (obj) {
